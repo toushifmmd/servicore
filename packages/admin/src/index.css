@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* ServiCore — Dark theme */
+:root {
+  --color-primary: #6366f1;
+  --color-accent: #06b6d4;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
