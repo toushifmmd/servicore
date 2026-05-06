@@ -1,0 +1,15 @@
+{
+  "name": "servicore",
+  "private": true,
+  "scripts": {
+    "dev:admin": "pnpm --filter admin dev",
+    "dev:mobile": "pnpm --filter mobile start",
+    "build:admin": "pnpm --filter admin build"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.6"
+  }
+}
